@@ -17,7 +17,7 @@ A short log of setting up an AI-assisted development environment: the **Cursor**
 
 - [x] **1. Install Cursor IDE** — already installed on this machine, so no action needed.
 - [x] **2. Add the Claude Code extension** — installed `anthropic.claude-code` v2.1.191.
-- [ ] **2b. Log in to Claude Code** — done manually in Cursor (sidebar → Claude Code → Sign in with Anthropic account). *This is a personal OAuth sign-in and cannot be scripted.*
+- [x] **2b. Log in to Claude Code** — signed in via the Claude Code panel in Cursor; it connected through the already-authenticated `claude` CLI on this machine.
 - [x] **3. Add the Codex extension** — installed `openai.chatgpt` v26.616.81150.
 - [ ] **3b. Log in to Codex** — done manually in Cursor (sidebar → Codex/ChatGPT → Sign in with OpenAI account). *Same as above — interactive sign-in.*
 - [x] **4. Create a public GitHub repository** — this repo, created with `gh`.
@@ -26,7 +26,7 @@ A short log of setting up an AI-assisted development environment: the **Cursor**
 - [x] **7. Commit and push to GitHub.**
 - [ ] **8. Reply to the originating email** with the link to this README.
 
-> The two **login** boxes are intentionally left unchecked above because they are interactive sign-ins performed by hand in Cursor's UI — they're done outside the scripted steps, against personal Anthropic and OpenAI accounts.
+> The one remaining unchecked box is the **Codex login** (3b) — an interactive browser sign-in with a personal OpenAI account, still to be completed. The Claude Code login (2b) connected automatically through the existing `claude` CLI session.
 
 ## Issues I ran into and how I solved them
 
