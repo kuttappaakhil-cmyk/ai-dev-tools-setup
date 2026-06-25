@@ -19,14 +19,14 @@ A short log of setting up an AI-assisted development environment: the **Cursor**
 - [x] **2. Add the Claude Code extension** — installed `anthropic.claude-code` v2.1.191.
 - [x] **2b. Log in to Claude Code** — signed in via the Claude Code panel in Cursor; it connected through the already-authenticated `claude` CLI on this machine.
 - [x] **3. Add the Codex extension** — installed `openai.chatgpt` v26.616.81150.
-- [ ] **3b. Log in to Codex** — done manually in Cursor (sidebar → Codex/ChatGPT → Sign in with OpenAI account). *Same as above — interactive sign-in.*
+- [x] **3b. Log in to Codex** — signed in via the Codex panel in Cursor using a personal OpenAI account; confirmed connected.
 - [x] **4. Create a public GitHub repository** — this repo, created with `gh`.
 - [x] **5. Open the repository in Cursor.**
 - [x] **6. Create this README.md.**
 - [x] **7. Commit and push to GitHub.**
 - [ ] **8. Reply to the originating email** with the link to this README.
 
-> The one remaining unchecked box is the **Codex login** (3b) — an interactive browser sign-in with a personal OpenAI account, still to be completed. The Claude Code login (2b) connected automatically through the existing `claude` CLI session.
+> Both extension logins are now complete. Claude Code (2b) connected automatically through the existing `claude` CLI session; Codex (3b) was signed in interactively with a personal OpenAI account. The only remaining box is step 8 — sending the email reply with the link to this README.
 
 ## Issues I ran into and how I solved them
 
