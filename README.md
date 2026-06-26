@@ -84,7 +84,7 @@ Full rationale, links, and dated content in [`research/sources.md`](research/sou
 | Koray T. Gübür | Semantic SEO / topical authority + AI agents |
 
 ## What was collected
-- **11 YouTube transcripts (~101k words) across 7 experts** — keynotes, webinars, and long-form interviews (e.g. Mike King's SEO Week 2025 keynote, Bernard Huang's Clearscope webinars, Eli Schwartz on Lenny's, Aleyda's AI Search Optimization Roadmap). → [`research/youtube-transcripts/`](research/youtube-transcripts/)
+- **16 YouTube transcripts (~113k words) across 9 experts** — keynotes, webinars, and long-form interviews (e.g. Mike King's SEO Week 2025 keynote, Bernard Huang's Clearscope webinars, Eli Schwartz on Lenny's, Ryan Law's AI content-production workflow, Koray's semantic-SEO webinar). → [`research/youtube-transcripts/`](research/youtube-transcripts/)
 - **4 article digests across 3 experts** (Ryan Law ×2, Koray Gübür, Kevin Indig) — paraphrased summaries + attributed short quotes + links. → [`research/other/`](research/other/)
 - **28 LinkedIn posts across all 10 experts** — digested with verbatim opening lines, dates, links, and annotations. → [`research/linkedin-posts/`](research/linkedin-posts/)
 
@@ -99,7 +99,7 @@ Full rationale, links, and dated content in [`research/sources.md`](research/sou
 research/
 ├── sources.md            # the 10 experts: who, why, links, dated content
 ├── linkedin-posts/       # one file per author (manually collected)
-├── youtube-transcripts/  # one folder per author, one file per video (7 experts, 11 files)
+├── youtube-transcripts/  # one folder per author, one file per video (9 experts, 16 files)
 └── other/                # article digests, podcasts, honorable mentions
 scripts/
 ├── fetch_transcript.py   # no-key YouTube transcript → Markdown
@@ -107,7 +107,7 @@ scripts/
 ```
 
 ## Honest status & gaps
-- **YouTube IP rate-limit:** after ~11 fetches YouTube began returning `IpBlocked`. Five queued videos (Koray ×2, Ryan Law ×2, Lily Ray ×1) are pending **backfill** — re-running `scripts/collect.sh` once the block lifts completes them. Koray and Ryan Law are already represented via written digests, so no expert is missing.
+- **YouTube IP rate-limit (resolved):** mid-collection the transcript API began returning `IpBlocked` after ~11 fetches. The final 5 (Koray ×2, Ryan Law ×2, Lily Ray ×1) were backfilled by **manually copying** the on-page YouTube transcripts — so all queued videos are now collected.
 - **LinkedIn posts:** in progress, collected manually (paste-in).
 - **Coverage:** all 10 experts now have collected material (7 via transcripts, 3 via written digests). Kevin Indig's Growth Memo is partly paywalled, so he's digested from a free Search Engine Land piece carrying his own data.
 - **LinkedIn:** post bodies are login-gated in general, but public *share-links* (provided manually) proved fetchable — so Aleyda/Lily/Kevin posts are filed (one Aleyda post stayed walled, kept as a reference). Dates were decoded from the activity IDs. **Two submitted profiles were name-collisions and rejected:** `rossmsymons` is Ross **Symons** (AI-video creator), not Ross Simmonds; `michael-king-3358bbaa` is a private-equity exec, not Mike King of iPullRank. I found and collected the correct profiles, and on later batches re-verified every handle — catching a post that was *about* Koray (not his) and several off-topic personal posts. All 10 experts now have LinkedIn posts filed.

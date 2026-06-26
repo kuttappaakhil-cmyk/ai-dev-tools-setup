@@ -44,4 +44,5 @@ run D7LBx8RFOcQ --author ryan-law           # AI Writing at Scale: Ahrefs Workfl
 run mL1W1SMtTT4 --author ryan-law --published 2025-10-01   # How to Win in AI Search (Real Data, No Hype)
 
 # NOTE: YouTube IP-rate-limits bursts; some fetches above may report "IpBlocked".
-# Re-run later (block is temporary) to backfill any that were skipped.
+# The 5 that were blocked (Koray x2, Ryan Law x2, Lily Ray x1) were backfilled by
+# manually copying the on-page YouTube transcripts. Re-run later to refresh via API.
