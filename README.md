@@ -85,7 +85,7 @@ Full rationale, links, and dated content in [`research/sources.md`](research/sou
 
 ## What was collected
 - **11 YouTube transcripts (~101k words) across 7 experts** — keynotes, webinars, and long-form interviews (e.g. Mike King's SEO Week 2025 keynote, Bernard Huang's Clearscope webinars, Eli Schwartz on Lenny's, Aleyda's AI Search Optimization Roadmap). → [`research/youtube-transcripts/`](research/youtube-transcripts/)
-- **3 article digests** (Ryan Law ×2, Koray Gübür) — paraphrased summaries + attributed short quotes + links. → [`research/other/`](research/other/)
+- **4 article digests across 3 experts** (Ryan Law ×2, Koray Gübür, Kevin Indig) — paraphrased summaries + attributed short quotes + links. → [`research/other/`](research/other/)
 - **LinkedIn posts** — collected manually (in progress). → [`research/linkedin-posts/`](research/linkedin-posts/)
 
 ## How (tools & methodology)
@@ -109,6 +109,7 @@ scripts/
 ## Honest status & gaps
 - **YouTube IP rate-limit:** after ~11 fetches YouTube began returning `IpBlocked`. Five queued videos (Koray ×2, Ryan Law ×2, Lily Ray ×1) are pending **backfill** — re-running `scripts/collect.sh` once the block lifts completes them. Koray and Ryan Law are already represented via written digests, so no expert is missing.
 - **LinkedIn posts:** in progress, collected manually (paste-in).
-- **Kevin Indig:** his Growth Memo newsletter is partly paywalled (not fetchable), so he'll be represented via LinkedIn + newsletter links.
+- **Coverage:** all 10 experts now have collected material (7 via transcripts, 3 via written digests). Kevin Indig's Growth Memo is partly paywalled, so he's digested from a free Search Engine Land piece carrying his own data.
+- **LinkedIn is login-gated:** confirmed a post URL returns a login wall, and scraping is against LinkedIn's ToS — so LinkedIn posts can't be auto-collected; they're added manually (paste-in).
 
 *Living research base — commits are incremental by design.*
