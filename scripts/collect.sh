@@ -20,5 +20,28 @@ run f84ovVChEh4 --author bernard-huang     # AI-driven SEO revolution: future of
 # --- Julian Goldie — Goldie Agency ---
 run HiivXpe2Slk --author julian-goldie     # How to Automate SEO with AI in 2025
 
-# More experts appended as video IDs are confirmed (Aleyda, Mike King,
-# Eli Schwartz, Lily Ray, Koray, Ryan Law).
+# --- Aleyda Solis — Orainti / Crawling Mondays ---
+run BjyF_4UhoOM --author aleyda-solis       # The AI Search Optimization Roadmap
+run qHXh09fnRcE --author aleyda-solis       # SEO Reloaded: Old rules in the new AI world
+
+# --- Mike King — iPullRank ---
+run Bs6-ROULCLk --author mike-king          # The Brave New World of SEO (SEO Week 2025 keynote)
+run pQLivtcqCZs --author mike-king --published 2025-05-27   # Relevance Engineering / Query Fan Out (Page 2)
+
+# --- Eli Schwartz — Product-Led SEO ---
+run Z71yGshPTwk --author eli-schwartz       # Rethinking SEO in the age of AI (Lenny's)
+
+# --- Lily Ray — Amsive / Algorythmic ---
+run 2nJkT8zOzcM --author lily-ray           # GEO, AEO, LLMO: Fact from Fiction (MozCon 2025)
+run UDexUcyPC04 --author lily-ray           # AI overviews, AI content and E-E-A-T
+
+# --- Koray Tuğberk Gübür — Holistic SEO ---
+run 81pe-YM9iRI --author koray-gubur        # AI-Powered Semantic SEO
+run pIKfKowzauQ --author koray-gubur        # How Topical Authority SEO Works
+
+# --- Ryan Law — Ahrefs ---
+run D7LBx8RFOcQ --author ryan-law           # AI Writing at Scale: Ahrefs Workflow
+run mL1W1SMtTT4 --author ryan-law --published 2025-10-01   # How to Win in AI Search (Real Data, No Hype)
+
+# NOTE: YouTube IP-rate-limits bursts; some fetches above may report "IpBlocked".
+# Re-run later (block is temporary) to backfill any that were skipped.
