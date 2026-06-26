@@ -57,3 +57,58 @@ anthropic.claude-code@2.1.191
 anysphere.remote-ssh@1.1.4
 openai.chatgpt@26.616.81150
 ```
+
+---
+
+# Research Project — AI-Powered SEO Content Production
+
+The second half of this repo is a research project: pick one B2B-SaaS growth topic, find 10 genuine expert *practitioners*, collect their recent content via APIs/tools, and organize it to support a future playbook.
+
+## Topic chosen
+**AI-powered SEO content production** — how operators actually use AI to plan, produce, optimize, and distribute search content, and keep it visible as search shifts to AI answers (GEO/AEO). Chosen because it has the strongest set of practitioner voices with publicly collectible content and spans a full pipeline, so the material can support a real playbook rather than one repeated take.
+
+## The 10 experts (and why)
+Full rationale, links, and dated content in [`research/sources.md`](research/sources.md). Picked for being **practitioners, not commentators**, for covering **distinct stages** of the pipeline, and for a deliberate **range of stances** (AI-bullish operators + quality-first skeptics):
+
+| Expert | Angle they own |
+|---|---|
+| Kevin Indig | Data-driven AI-search impact (Growth Memo) |
+| Aleyda Solis | Curation + education (Crawling Mondays / SEOFOMO) |
+| Mike King | GEO / "relevance engineering" (iPullRank) |
+| Ross Simmonds | AI content distribution for B2B SaaS (Foundation) |
+| Bernard Huang | AEO/GEO content optimization (Clearscope) |
+| Ryan Law | AI content production on Claude Code (Ahrefs) |
+| Julian Goldie | AI content automation at scale (300k+ YouTube) |
+| Lily Ray | Quality / EEAT / "AI slop" critic (Amsive) |
+| Eli Schwartz | Product-led SEO strategy lens |
+| Koray T. Gübür | Semantic SEO / topical authority + AI agents |
+
+## What was collected
+- **11 YouTube transcripts (~101k words) across 7 experts** — keynotes, webinars, and long-form interviews (e.g. Mike King's SEO Week 2025 keynote, Bernard Huang's Clearscope webinars, Eli Schwartz on Lenny's, Aleyda's AI Search Optimization Roadmap). → [`research/youtube-transcripts/`](research/youtube-transcripts/)
+- **3 article digests** (Ryan Law ×2, Koray Gübür) — paraphrased summaries + attributed short quotes + links. → [`research/other/`](research/other/)
+- **LinkedIn posts** — collected manually (in progress). → [`research/linkedin-posts/`](research/linkedin-posts/)
+
+## How (tools & methodology)
+- **Sourcing:** web search + domain-filtered YouTube search to find *specific* practitioners and their real videos (not listicles), then verified recency/relevance.
+- **Transcripts:** [`scripts/fetch_transcript.py`](scripts/fetch_transcript.py) using the free, no-key [`youtube-transcript-api`](https://pypi.org/project/youtube-transcript-api/) — **not** Supadata, which needs an account + API key I can't create. Titles/channels via YouTube's public oEmbed endpoint. [`scripts/collect.sh`](scripts/collect.sh) is a reproducible runner/manifest.
+- **Written sources:** fetched and digested, never reproduced in full (copyright-safe).
+- **LinkedIn:** collected **manually**, not scraped — LinkedIn gates posts behind login and forbids scraping in its ToS.
+
+## Repo structure
+```
+research/
+├── sources.md            # the 10 experts: who, why, links, dated content
+├── linkedin-posts/       # one file per author (manually collected)
+├── youtube-transcripts/  # one folder per author, one file per video (7 experts, 11 files)
+└── other/                # article digests, podcasts, honorable mentions
+scripts/
+├── fetch_transcript.py   # no-key YouTube transcript → Markdown
+└── collect.sh            # reproducible collection manifest
+```
+
+## Honest status & gaps
+- **YouTube IP rate-limit:** after ~11 fetches YouTube began returning `IpBlocked`. Five queued videos (Koray ×2, Ryan Law ×2, Lily Ray ×1) are pending **backfill** — re-running `scripts/collect.sh` once the block lifts completes them. Koray and Ryan Law are already represented via written digests, so no expert is missing.
+- **LinkedIn posts:** in progress, collected manually (paste-in).
+- **Kevin Indig:** his Growth Memo newsletter is partly paywalled (not fetchable), so he'll be represented via LinkedIn + newsletter links.
+
+*Living research base — commits are incremental by design.*
