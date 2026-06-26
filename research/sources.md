@@ -31,7 +31,7 @@ The brief is explicit that *10 high-signal sources beat 50 generic ones*, and th
 
 **Collection legend:** 🎥 YouTube transcript (collected via `youtube-transcript-api`) · 🎙️ podcast · 📝 newsletter/blog · 💼 LinkedIn (pasted in, see `/research/linkedin-posts/`)
 
-> Note on LinkedIn URLs: handles below are best-known; confirm each before collecting posts. Primary links (sites/newsletters/YouTube) are verified from research.
+> Note on LinkedIn URLs: profile handles below are **verified** (two name-collisions — a wrong "Ross" and a wrong "Mike King" — were caught and corrected during collection). Primary links (sites/newsletters/YouTube) are verified from research.
 
 ---
 
@@ -40,7 +40,7 @@ The brief is explicit that *10 high-signal sources beat 50 generic ones*, and th
 ### 1. Kevin Indig — *Growth Memo*
 - **Role:** Independent growth/SEO advisor (ex-Shopify, G2, Atlassian; advises Reddit, Ramp, Dropbox, Snap).
 - **Why chosen:** The sharpest *data-first* voice on how AI search is reshaping organic content — original analysis rather than hot takes. Coined working frames like "Keyword Universe" / topical authority and tracks "agentic SEO."
-- **Channels:** 📝 [growth-memo.com](https://www.growth-memo.com/) (~21k subs) · [kevin-indig.com](https://www.kevin-indig.com/) · 🎙️ frequent podcast guest · 💼 LinkedIn (confirm handle)
+- **Channels:** 📝 [growth-memo.com](https://www.growth-memo.com/) (~21k subs) · [kevin-indig.com](https://www.kevin-indig.com/) · 🎙️ frequent podcast guest · 💼 [LinkedIn /in/kevinindig](https://www.linkedin.com/in/kevinindig)
 - **Recent (dated):** ["Is AI cutting into your SEO conversions?"](https://www.growth-memo.com/p/is-ai-cutting-into-your-seo-conversions) · 2026 predictions ("end of AI dashboards, rise of agentic SEO").
 - **Collecting:** 📝 newsletter essays, 🎙️ podcast transcripts, 💼 LinkedIn.
 
@@ -66,31 +66,31 @@ The brief is explicit that *10 high-signal sources beat 50 generic ones*, and th
 ### 5. Bernard Huang — *Clearscope*
 - **Role:** Co-founder, Clearscope (AI-driven content optimization tool).
 - **Why chosen:** Operator + tool-maker who breaks down **how AI-driven search actually works** (training data → AI validation searches → memory/context) and turns it into an AEO/GEO/AI-SEO playbook for winning citations. Rich, structured webinar content.
-- **Channels:** 🎥 [Clearscope webinars](https://www.clearscope.io/webinars) (e.g., ["How AEO/GEO/AI SEO Actually Works"](https://www.clearscope.io/webinars/how-aeo-geo-actually-works), Dec 11 2025) · YouTube webinar recordings · 🎙️ Voices of Search · 💼 LinkedIn (confirm handle)
+- **Channels:** 🎥 [Clearscope webinars](https://www.clearscope.io/webinars) (e.g., ["How AEO/GEO/AI SEO Actually Works"](https://www.clearscope.io/webinars/how-aeo-geo-actually-works), Dec 11 2025) · YouTube webinar recordings · 🎙️ Voices of Search · 💼 [LinkedIn /in/bernardjhuang](https://www.linkedin.com/in/bernardjhuang)
 - **Collecting:** 🎥 webinar transcripts, 🎙️ podcasts, 💼 LinkedIn.
 
 ### 6. Ryan Law — *Ahrefs*
 - **Role:** Director of Content Marketing, Ahrefs (ex-Animalz; 14 yrs content/SEO).
 - **Why chosen:** The most credible voice on **quality AI content production at scale** — documents an actual process built on **Claude Code + Ahrefs MCP + ~15 custom Skills** (directly relevant to this toolchain), while arguing against mindless "scale output."
-- **Channels:** 📝 [Ahrefs blog](https://ahrefs.com/blog/) — ["My Complete AI Content Process"](https://ahrefs.com/blog/my-complete-ai-content-process-for-ahrefs/), ["How I Do Content Engineering with Claude Code"](https://ahrefs.com/blog/how-i-do-content-engineering-with-claude-code/), ["AI Content Is Short-Term Arbitrage"](https://ahrefs.com/blog/ai-content-is-short-term-arbitrage/) · 🎥 Ahrefs Podcast · 💼 LinkedIn (confirm handle)
+- **Channels:** 📝 [Ahrefs blog](https://ahrefs.com/blog/) — ["My Complete AI Content Process"](https://ahrefs.com/blog/my-complete-ai-content-process-for-ahrefs/), ["How I Do Content Engineering with Claude Code"](https://ahrefs.com/blog/how-i-do-content-engineering-with-claude-code/), ["AI Content Is Short-Term Arbitrage"](https://ahrefs.com/blog/ai-content-is-short-term-arbitrage/) · 🎥 Ahrefs Podcast · 💼 [LinkedIn /in/thinkingslow](https://www.linkedin.com/in/thinkingslow)
 - **Collecting:** 📝 essays, 🎥 Ahrefs Podcast transcripts, 💼 LinkedIn.
 
 ### 7. Julian Goldie — *Goldie Agency*
 - **Role:** CEO, Goldie Agency; runs the *Julian Goldie SEO* YouTube channel (300k+ subs).
 - **Why chosen:** The clearest example of **end-to-end AI content automation** — AI clone workflows, faceless channels, stacks (NotebookLM + Gemini + Claude + HeyGen). High-volume and aggressive; included for the *systems/automation* angle. **Annotation:** lean toward scale/monetization; cross-check claims against the quality-first voices here.
-- **Channels:** 🎥 [YouTube @JulianGoldieSEO](https://www.youtube.com/@JulianGoldieSEO) · [example: "How to Automate SEO with AI in 2025"](https://www.youtube.com/watch?v=HiivXpe2Slk) · 🎙️ podcast guest · 💼 LinkedIn /in/julian-goldie
+- **Channels:** 🎥 [YouTube @JulianGoldieSEO](https://www.youtube.com/@JulianGoldieSEO) · [example: "How to Automate SEO with AI in 2025"](https://www.youtube.com/watch?v=HiivXpe2Slk) · 🎙️ podcast guest · 💼 [LinkedIn /in/juliangoldieseo](https://www.linkedin.com/in/juliangoldieseo)
 - **Collecting:** 🎥 YouTube transcripts (primary), 💼 LinkedIn.
 
 ### 8. Lily Ray — *Amsive / Algorythmic*
 - **Role:** Founder, Algorythmic; VP, SEO & AI Search at Amsive; former Google Quality Rater perspective on EEAT.
 - **Why chosen:** The essential **quality/EEAT and "AI slop" counterweight** — why scaled AI content is short-term arbitrage and how Google treats it. Keeps a playbook honest.
-- **Channels:** [algorythmic.co](https://algorythmic.co/articles/) · [Search Engine Land author](https://searchengineland.com/author/lily-ray) · 🎥 [SEO Week 2025: "The Vicious Cycle of SEO"](https://ipullrank.com/seo-week-2025-lily-ray) · 🎙️ Masters of Search & many 2025 podcasts (Friends of Search, Mar 13 2025) · 💼 LinkedIn /in/lily-ray-data
+- **Channels:** [algorythmic.co](https://algorythmic.co/articles/) · [Search Engine Land author](https://searchengineland.com/author/lily-ray) · 🎥 [SEO Week 2025: "The Vicious Cycle of SEO"](https://ipullrank.com/seo-week-2025-lily-ray) · 🎙️ Masters of Search & many 2025 podcasts (Friends of Search, Mar 13 2025) · 💼 [LinkedIn /in/lily-ray-44755615](https://www.linkedin.com/in/lily-ray-44755615)
 - **Collecting:** 🎥 talk transcripts, 🎙️ podcasts, 💼 LinkedIn.
 
 ### 9. Eli Schwartz — *Product-Led SEO*
 - **Role:** SEO advisor/author (*Product-Led SEO*); built SurveyMonkey 0→$100M+ organic; advised Zapier, Coinbase, Tinder.
 - **Why chosen:** The **strategy/executive lens** — where AI shifts the funnel (top-of-funnel to AI, mid-funnel still SEO) and why "churning out content" is dead. Balances tactics with business framing.
-- **Channels:** 📝 [The Future of SEO & AEO (Substack)](https://www.productledseo.com/) · 🎥 [Lenny's Newsletter: "Rethinking SEO in the age of AI"](https://www.lennysnewsletter.com/p/rethinking-seo-in-the-age-of-ai-eli-schwartz) · 🎙️ [GTM Podcast #116](https://gtmnow.com/gtm-116-future-seo-ai-impact-product-led-framework-eli-schwartz/) · 💼 LinkedIn /in/schwartzeli
+- **Channels:** 📝 [The Future of SEO & AEO (Substack)](https://www.productledseo.com/) · 🎥 [Lenny's Newsletter: "Rethinking SEO in the age of AI"](https://www.lennysnewsletter.com/p/rethinking-seo-in-the-age-of-ai-eli-schwartz) · 🎙️ [GTM Podcast #116](https://gtmnow.com/gtm-116-future-seo-ai-impact-product-led-framework-eli-schwartz/) · 💼 [LinkedIn /in/schwartze](https://www.linkedin.com/in/schwartze)
 - **Collecting:** 📝 newsletter, 🎥/🎙️ interview transcripts, 💼 LinkedIn.
 
 ### 10. Koray Tuğberk Gübür — *Holistic SEO & Digital*
