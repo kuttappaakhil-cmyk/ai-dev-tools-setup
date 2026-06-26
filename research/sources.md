@@ -54,7 +54,7 @@ The brief is explicit that *10 high-signal sources beat 50 generic ones*, and th
 ### 3. Mike King — *iPullRank*
 - **Role:** Founder/CEO, iPullRank (enterprise SEO agency); background in CS + information retrieval.
 - **Why chosen:** The most technical authority on **Generative Engine Optimization (GEO)** and "Relevance Engineering" — embeddings, query fan-out, citation-worthiness. Authored the *AI Search Manual*; ran SEO Week 2025.
-- **Channels:** [ipullrank.com](https://ipullrank.com/) · [AI Search Manual](https://ipullrank.com/ai-search-manual) · 🎥 conference keynotes (SEO Week 2025: ["The Brave New World of SEO"](https://ipullrank.com/seo-week-2025-mike-king)) · 💼 LinkedIn /in/ipullrank
+- **Channels:** [ipullrank.com](https://ipullrank.com/) · [AI Search Manual](https://ipullrank.com/ai-search-manual) · 🎥 conference keynotes (SEO Week 2025: ["The Brave New World of SEO"](https://ipullrank.com/seo-week-2025-mike-king)) · 💼 [LinkedIn /in/michaelkingphilly](https://www.linkedin.com/in/michaelkingphilly)
 - **Collecting:** 🎥 keynote/talk transcripts, 📝 AI Search Manual chapters, 💼 LinkedIn.
 
 ### 4. Ross Simmonds — *Foundation Marketing / Distribution.ai*
